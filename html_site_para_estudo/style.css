@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Noto Serif", serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d7c2eb;
+    color: #2a214b;
+}
+h1 {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #d7c2eb;
+    color: #291b77;
+    font-weight: 900;
+}
+header {
+    text-align: center;
+    padding: 20px;
+}
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 0 auto;
+}
+input[type="radio"], input[type="checkbox"] {
+    color:#2a214b;
+}
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    outline: none;
+    border: 1px solid #2926ff;
+    border-radius: 5px;
+}
+input::placeholder, textarea::placeholder {
+    color: #ca8aff;
+}
+button {
+    background-color: #291b77;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}

@@ -2,11 +2,23 @@
 
 <html>
     <head>
+        <meta charset="UTF-8">
         <title>Projeto de Estudo HTML</title>
         <meta name="description" content="Projeto de Estudo HTML - Desenvolvedor IA e Especialista em Automação">
+        <!--CSS Externo-->
+        <link rel="stylesheet" href="style.css">
+        <!--CSS Interno (dentro do código)-->
+        <style>
+            h1 {
+                color: navy;
+                font-size: 36px;
+            }
+        </style>
     </head>
     <body>
         <header>
+            <!--Titulo Principal-->
+            <!--Titulo em CSS com código Inline: <h1 style=" color: slateblue; font-size: 38px; ">Projeto de Estudo HTML</h1>-->
             <h1>Projeto de Estudo HTML</h1>
             <p>Parágrafo pós Titulo Principal</p>
         </header>
@@ -101,7 +113,6 @@
                         </tr>
                     </thead>
                     <tbody>
-
                     </tbody>
                         <tr>
                             <th>Nome</th>
@@ -161,7 +172,6 @@
                         <input type="email" id="email" name="email" placeholder="Digite seu email..."><br>
                         <label for="sugetoes">Sugetões:</label><br>
                         <textarea id="sugestoes" name="sugestoes" rows="4" cols="50" placeholder="Digite suas sugestões..."></textarea><br>
-                        <input type="submit" value="Enviar"><br>
                         <button onclick="alert('Cadastro Enviado')">Enviar</button>
                     </fieldset>
                 </form>

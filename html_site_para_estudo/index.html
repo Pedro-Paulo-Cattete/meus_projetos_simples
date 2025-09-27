@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Projeto de Estudo HTML</title>
+        <meta name="description" content="Projeto de Estudo HTML - Desenvolvedor IA e Especialista em Automação">
+    </head>
+    <body>
+        <header>
+            <h1>Projeto de Estudo HTML</h1>
+            <p>Parágrafo pós Titulo Principal</p>
+        </header>
+        <main>
+            <!--Comentário-->
+            <section>
+                <h2>Introdução:</h2>
+                <p><strong>Negrito</strong>, <em>Itálico</em> e texto comum.</p>
+                <p>Quebra <br>de</bR> frase.</p>
+                <p>Legendando Palavras: <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr></p>
+            </section>
+            <!--Multipla Escolha-->
+            <section>
+                <h2>Multipla Escolha 1:</h2>
+                <form>
+                    <input type="radio" id="m1a" name="multipla1" value="Primeira Opção">
+                    <label for="m1a">Primeira Opção</label><br>
+                    <input type="radio" id="m1b" name="multipla1" value="Segunda Opção">
+                    <label for="m1b">Segunda Opção</label><br>
+                    <input type="radio" id="m1c" name="multipla1" value="Terceira Opção">
+                    <label for="m1c">Terceira Opção</label><br>
+                </form>
+            </section>
+            <!--Pergunta e Resposta Escrita-->
+            <section>
+                <h2>Pergunta e Resposta Escrita1:</h2>
+                <form>
+                    <label for="pergunta1">Pergunta?</label><br>
+                    <input type="text" id="pergunta1" name="pergunta1"placeholder="Digite sua Resposta..."><br>
+                </form>
+            </section>
+            <!--Input de Senha-->
+            <section>
+                <h2>Formato de Senha:</h2>
+                <form>
+                    <label for="senha">Senha:</label><br>
+                    <input type="password" id="senha" name="senha" placeholder="Digite sua Senha..."><br>
+                </form>
+            </section>
+            <!--Input de Data-->
+            <section>
+                <h2>Data:</h2>
+                <input type="date" id="data" name="data">
+            </section>
+            <!--Seleção Multipla-->
+            <section>
+                <h2>Seleção Multipla:</h2>
+                <form>
+                    <input type="checkbox" id="op1" name="op1" value="Seleção Multipla 1">
+                    <label for="op1">Seleção Multipla 1</label><br>
+                    <input type="checkbox" id="op2" name="op2" value="Seleção Multipla 2">
+                    <label for="op2">Seleção Multipla 2</label><br>
+                    <input type="checkbox" id="op3" name="op3" value="Seleção Multipla 3">
+                    <label for="op3">Seleção Multipla 3</label><br>
+                </form>
+            </section>
+            <!--Upload de Arquivo-->
+            <section>
+                <h2>Upload de Arquivo:</h2>
+                <form>
+                    <input type="file" id="arquivo" name="arquivo"><br>
+                </form>
+            </section>
+            <!--Menu Suspenso-->
+            <section>
+                <h2>Menu Suspenso:</h2>
+                <form>
+                    <label for="opcoes">Escolha uma opção:</label><br>
+                    <select id="opcoes" name="opcoes">
+                        <option value="opcao1">Opção 1</option>
+                        <option value="opcao2">Opção 2</option>
+                        <option value="opcao3">Opção 3</option>
+                    </select><br>
+                </form>
+            </section>
+            <!--Imagem-->
+            <section>
+                <h2>Imagem:</h2>
+            <figure>
+                <img src="https://avatars.githubusercontent.com/u/170337394?v=4" alt="Descrição da Imagem caso ela não carregue">
+                <figcaption>Legenda da Imagem</figcaption>
+            </figure>
+            </section>
+            <!--Tabela-->
+            <section>
+                <h2>Tabela:</h2>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th colspan="1">Tabela de Exemplo</th>
+                            <th colspan="2">Informações</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Idade</th>
+                            <th>Cidade</th>
+                        </tr>
+                        <tr>
+                            <td>Pedro</td>
+                            <td>30</td>
+                            <td>São Paulo</td>
+                        </tr>
+                        <tr>
+                            <td>Ana</td>
+                            <td>25</td>
+                            <td>Rio de Janeiro</td>
+                        </tr>
+                        <tr>
+                            <td>Lucas</td>
+                            <td>28</td>
+                            <td>Belo Horizonte</td>
+                        </tr>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">Fim da Tabela</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+            <!--Listas e Detalhes-->
+            <section>
+                <h2>Listas:</h2>
+                <Details>
+                    <summary>Clique para ver as listas</summary>
+                    <h3>Lista Ordenada:</h3>
+                    <ol>
+                        <li>Primeiro Item</li>
+                        <li>Segundo Item</li>
+                        <li>Terceiro Item</li>
+                    </ol>
+                    <h3>Lista Não Ordenada:</h3>
+                    <ul>
+                        <li>Item A</li>
+                        <li>Item B</li>
+                        <li>Item C</li>
+                    </ul>
+                </Details>
+            </section>
+            <!--Cadastro-->
+            <section>
+                <h2>Formulário de Cadastro:</h2>
+                <form>
+                    <fieldset>
+                        <legend>Cadastro</legend>
+                        <label for="nome">Nome:</label><br>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome..."><br>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" placeholder="Digite seu email..."><br>
+                        <label for="sugetoes">Sugetões:</label><br>
+                        <textarea id="sugestoes" name="sugestoes" rows="4" cols="50" placeholder="Digite suas sugestões..."></textarea><br>
+                        <input type="submit" value="Enviar"><br>
+                        <button onclick="alert('Cadastro Enviado')">Enviar</button>
+                    </fieldset>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Pedro Cattete. Todos os direitos reservados.</p>
+            <p>Contato: <a href="mailto:pedro.cattete@gmail.com">pedro.cattete@gmail.com</a></p>
+            <p>Github: <a href="https://github.com/Pedro-Paulo-Cattete" target="_blank">Pedro Paulo Cattete</a></p>
+        </footer>
+    </body>
+</html>

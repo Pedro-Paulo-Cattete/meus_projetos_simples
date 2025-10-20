@@ -52,3 +52,34 @@ button {
     cursor: pointer;
     border-radius: 5px;
 }
+
+img {
+    width: 5rem;
+    height: auto;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #291b77;
+    color: white;
+    padding: 2rem;
+    text-align: left;
+}
+
+td {
+    background-color: #291b77;
+    color: white;
+    padding: 2rem;
+    text-align: left;
+}
+
+tfoot td {
+    background-color: #d7c2eb;
+    color: #291b77;
+    font-weight: bold;
+}
